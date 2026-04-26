@@ -119,7 +119,7 @@ export default function Register() {
             <p className="text-center text-xs text-[#0a3a6a]">
               already have an account?{' '}
               <span
-                onClick={() => navigate('/login')}
+                onClick={() => navigate('/')}
                 className="text-[#1e8fff] cursor-pointer hover:underline"
               >
                 login
