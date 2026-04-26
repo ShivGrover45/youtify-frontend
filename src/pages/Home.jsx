@@ -132,7 +132,7 @@ export default function Home() {
       </div>
 
       {/* Player */}
-      <Player track={currentTrack} />
+    <Player track={currentTrack} tracks={musics} />
 
     </div>
   )
